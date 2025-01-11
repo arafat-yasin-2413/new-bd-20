@@ -12,20 +12,20 @@ body{
 
 nav{
     padding: 10px 0px;
-    margin: 50px 150px;
+    margin: 50px 130px;
 }
 
-nav ul{
+.nav-childs{
     display: flex;
     justify-content: space-between;
     
-
     font-family: Fira Sans;
 }
 
 .bd-title{
     font-size: 32px;
     font-weight: 700;
+    
 }
 
 nav a{
@@ -37,10 +37,9 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+
     gap: 48;
     padding: 15px 30px;
-    
-    
     
 }
 
@@ -48,12 +47,11 @@ nav li{
     list-style: none;
 }
 
-nav li button{
+nav button{
     border: 1px solid green;
     border-radius: 5px;
     background-color: white;
 
-    
 }
 
 .hover-link:hover{
@@ -65,14 +63,12 @@ nav li button{
 
 /* banner css starts */
 
-
-
 .banner-container{
     width: auto;
     height: 560px;
     background-color: #C6E4D6;
     /* padding: 100px 200px; */
-    margin: 50px 150px;
+    margin: 50px 130px;
 
     border-radius: 24px;
     
@@ -103,6 +99,7 @@ nav li button{
     font-family: Fira Sans;
     font-size: 50px;
     font-weight: 700;
+    /* padding-right: 15px; */
 }
 
 .banner-contents button{
@@ -144,6 +141,7 @@ nav li button{
     margin-left: auto; 
     margin-right: auto; 
     text-align: justify;
+    padding-right: 50px;
 }
 
 .vision-title{
@@ -373,7 +371,7 @@ nav li button{
 }
 
 .actual-news{
-    text-align: justify;
+    text-align: left;
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
