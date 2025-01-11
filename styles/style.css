@@ -305,3 +305,98 @@ nav li button{
     margin-left: 21px;
     color: rgba(14, 14, 14, 0.6);
 }
+
+
+/* Recent News CSS starts */
+.recent-news-container{
+    width: auto;
+    height: 1000px;
+    /* border: 4px solid red; */
+
+    margin-left: 130px;
+    margin-right: 130px;
+
+}
+
+
+.recent-news-title{
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+
+    margin-bottom: 20px;
+
+}
+
+.recent-news-description{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #0E0E0E;
+
+    margin-bottom: 30px;
+}
+
+.recent-news-body{
+    width: auto;
+    height: 320px;
+    /* border: 5px solid green; */
+    background-color: white;
+
+    border-radius: 24px;
+
+    display: flex;
+    padding: 35px 30px;
+
+    gap:30px;
+
+    margin-bottom: 20px;
+    
+}
+
+.news-title{
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 20px;
+}
+
+.date-and-time{
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 10px 0px;
+}
+
+.actual-news{
+    text-align: justify;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.news-image-tag{
+    border-radius: 24px;
+}
+
+.read-more-button{
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+}
+
+.read-more-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
