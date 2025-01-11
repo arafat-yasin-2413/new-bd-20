@@ -30,7 +30,7 @@ nav ul{
 
 nav a{
     text-decoration: none;
-    color:rgb(0, 106, 80);
+    color:#006A50;
     font-size: 18px;
     font-weight: 700;
 
@@ -399,4 +399,264 @@ nav li button{
     color: white;
     font-size: 16px;
     font-weight: 600;
+}
+
+/* Donate CSS starts */
+.donate-container{
+    width: auto;
+    height: 680px;
+    /* border: 2px solid red; */
+
+    font-family: Fira Sans;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+    
+
+}
+
+
+.donate-container li{
+    list-style: none;
+}
+
+
+
+.donate-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(14, 14, 14);
+    margin-bottom: 40px;
+}
+
+.donate-description{
+    font-size: 16px;
+    columns: #0E0E0E;
+    text-align: center;
+
+    padding: 0px 300px 0px 300px;
+}
+
+.donate-container ul{
+    display: flex;
+    gap:40px;
+
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.amount-btn{
+    font-size: 40px;
+    font-weight: 700;
+    border: none;
+
+    background-color: white;
+    /* border: 2px solid green; */
+    border-radius: 16px;
+
+    
+    color: rgb(14, 14, 14,0.8);
+
+    text-align: center;
+
+    padding: 40px;
+}
+
+
+.amount-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.other-amount::placeholder{
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+
+    padding: 10px 20px;
+
+    text-align: center;
+}
+
+
+.other-amount{
+    width: 1050px;
+    height: 60px;
+    margin: 20px 60px 20px 96px;
+
+    font-family: Fira Sans;
+    font-size: 25px;
+
+    /* box-sizing: border-box; */
+    border: none;
+    border-bottom :2px solid rgba(14, 14, 14, 0.15);
+    
+}
+
+
+.donate-now-button-er-father{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.donate-now-btn{
+    
+    background-color: rgb(0, 106, 80);
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 17px 34px;
+
+    
+}
+
+.donate-now-btn a{
+    text-decoration: none;
+
+    
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+
+
+}
+
+
+
+/* Newsletter CSS starts */
+
+.newsletter-container{
+    width: auto;
+    height: 300px;
+    /* border: 2px solid green; */
+    background-color: #C6E4D6;
+    margin: 0px 130px 100px 130px;
+    border-radius: 24px;
+
+    font-family: Fira Sans;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 50px 400px;
+
+}
+
+
+.newsletter-title{
+    font-size: 40px;
+    font-weight: bold;
+
+    color: #0E0E0E;
+
+    margin: 0px 0px 20px 0px;
+}
+
+.newsletter-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+
+    text-align: center;
+    
+    margin: 0px 0px 20px 0px;
+}
+
+.subscription-form{
+    display: flex;
+    justify-content: center;
+    /* gap:20px; */
+    align-items: center;
+    
+}
+
+.email-field{
+    border: none;
+    padding: 17px 50px;
+    width: 500px;
+    height: 20px;
+    border-radius: 8px 0px 0px 8px;
+    /* margin: 0px 0px 20px 0px; */
+}
+
+.email-field::placeholder{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.3);
+}
+
+.subscription-button{
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    padding: 17px 34px;
+    background-color: rgb(0, 106, 80);
+    
+}
+
+.subscription-button a{
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.newsletter-ending{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 30px 0px 30px 0px;
+}
+
+
+/* finishing CSS starts */
+
+.finishing{
+    width: auto;
+    height: 200px;
+    /* border: 3px solid red; */
+    background-color: white;
+
+    margin-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px; 
+
+    
+}
+
+.finishing hr{
+    margin: 20px 0px;
+    color: #0E0E0E;
+    
+}
+
+.finishing-title{
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+
+    padding-top: 50px;
+}
+
+.finishing a{
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px
 }
