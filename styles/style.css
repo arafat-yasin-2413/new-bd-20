@@ -4,6 +4,10 @@
     /* background-color: aliceblue; */
 }
 
+body{
+    background-color: #F5F5F5;
+}
+
 /* navbar css starts */
 
 nav{
@@ -123,20 +127,141 @@ nav li button{
     margin-right: 50px;
 }
 
-.box1,.box2{
-    width: 200px;
-    height: 200px;
+
+
+/* Vision CSS starts */
+
+.vision-container{
+    width: auto;
+    margin-bottom: 40px;
+    /* border: 5px solid red; */
+    padding: 5px 130px;
 }
 
-.box1{
-    background-color: #F5F5F5;
-}
-border: 2px solid purple;
+.vision-title,.vision-description{
+    font-family: Fira Sans;
 
-.box2{
-    background-color: #FFFFFF;
-    border: 2px solid red;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: justify;
 }
 
+.vision-title{
+
+    font-size: 44px;
+    font-weight: 800;
+
+    margin-top: 24px;
+    margin-bottom: 10px;
+    color: #0E0E0E;
+}
+
+.vision-description{
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgba(14, 14, 14, 0.7);
+}
 
 
+.vision-cards{
+    width: auto;
+
+    /* border: 10px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: auto auto;
+
+    
+    
+
+    /* gap: 100px; */
+}
+
+
+.vision-card1,.vision-card2,.vision-card3{
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+}
+
+.vision-card1{
+    background-color: rgba(84, 144, 245, 0.2);
+    
+}
+
+.vision-card2{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.vision-card3{
+    background: rgba(247, 235, 207, 1);
+}
+
+.vision-cards .card-title{
+
+
+    font-family: Fira Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.vision-cards .card-description{
+
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgba(14,14,14,0.7);
+}
+
+.card-button1{
+    background-color: rgb(84, 144, 245);
+    
+    
+}
+
+.card-button2{
+    background-color: rgb(9, 161, 92);
+}
+
+.card-button3{
+    background-color: rgb(255, 194, 57);
+}
+
+
+
+.card-button1,.card-button2,.card-button3{
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+}
+
+
+.card-button1 a,.card-button2 a,.card-button3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.vision-card-contents{
+    padding: 32px 32px;
+    
+}
+
+.card-image,.card-title,.card-description,.card-button{
+    margin-bottom: 18px;
+}
