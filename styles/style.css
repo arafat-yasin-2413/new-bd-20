@@ -265,3 +265,43 @@ nav li button{
 .card-image,.card-title,.card-description,.card-button{
     margin-bottom: 18px;
 }
+
+
+/* quotation css starts */
+
+.quotation-container{
+    width: auto;
+    height: 300px;
+    /* border: 5px solid purple; */
+    border-radius: 16px;
+    background-color: white;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 20px 10px;
+    margin: 0px 130px;
+    margin-bottom: 100px;
+}
+
+
+.quotation-description{
+    font-family: Fira Sans;
+    font-size: 18px;
+    color: rgba(14, 14, 14, 0.8);
+
+    text-align: justify;
+    padding: 38px 21px;
+}
+
+.quotation-speaker{
+    font-family: Fira Sans;
+    font-size: 20px;
+    margin: 0px 0px 10px 21px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.quotation-rank{
+    font-family: Fira Sans;
+    font-size: 16px;
+    margin-left: 21px;
+    color: rgba(14, 14, 14, 0.6);
+}
