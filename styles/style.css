@@ -1,0 +1,142 @@
+/* Shared css */
+*{
+    margin: 0;
+    /* background-color: aliceblue; */
+}
+
+/* navbar css starts */
+
+nav{
+    padding: 10px 0px;
+    margin: 50px 150px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    
+
+    font-family: Fira Sans;
+}
+
+.bd-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 15px 30px;
+    
+    
+    
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li button{
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: white;
+
+    
+}
+
+.hover-link:hover{
+    background-color: blueviolet;
+}
+
+
+
+
+/* banner css starts */
+
+
+
+.banner-container{
+    width: auto;
+    height: 560px;
+    background-color: #C6E4D6;
+    /* padding: 100px 200px; */
+    margin: 50px 150px;
+
+    border-radius: 24px;
+    
+}
+
+.banner-sub-container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.banner-contents{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+.banner-contents h4{
+    font-size: 24px;
+    font-family: Fira Sans;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.banner-contents p{
+    font-family: Fira Sans;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.banner-contents button{
+    background-color: #006A50;
+    border: none;
+    padding: 17px 34px;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+
+.banner-contents a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+
+}
+
+.banner-image{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.box1,.box2{
+    width: 200px;
+    height: 200px;
+}
+
+.box1{
+    background-color: #F5F5F5;
+}
+border: 2px solid purple;
+
+.box2{
+    background-color: #FFFFFF;
+    border: 2px solid red;
+}
+
+
+
