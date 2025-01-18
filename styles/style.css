@@ -463,6 +463,10 @@ nav button{
 }
 
 
+.amount-btn-2-special{
+    background-color: #C6E4D6;
+}
+
 .amount-div{
     display: flex;
     justify-content: center;
